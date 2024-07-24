@@ -24,7 +24,7 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 ### Sobre o ambiente da aplicação:
 
-- Caso no desafio não esteja definido o _stack_, sinta-se **confortável** em trabalhar com qualquer um de sua preferência.
+- Caso não esteja definido o _stack_ **dentro do desafio**, sinta-se **confortável** em trabalhar com qualquer um de sua preferência.
 
 - Você pode, inclusive, não optar por framework nenhum. Neste caso, recomendamos um maior planejamento para sua entrega.
 
