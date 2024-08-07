@@ -1,0 +1,17 @@
+services:
+  database:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: MongoDB2019!
+    volumes:
+      - .docker/mongo:/data/db
+
+  app:
+    image: node:22
+    working_dir: /opt/app
+    volumes:
+      - ./api:/opt/app
+    command: ["npx", "jest", "--watchAll"]
